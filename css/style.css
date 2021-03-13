@@ -1,0 +1,143 @@
+header {
+  width: 1600px;
+  height: 750px;
+  margin-left: auto;
+  margin-right:auto;
+  background-image:url('../img/dom.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 1750px 850px;
+}
+   position: sticky;
+   top: 0;
+}
+
+.topnav nav .menu {
+   display: flex;
+   margin: 0;
+   padding: 50px 100px;
+   float: right;
+}
+
+nav .menu li {
+   list-style: none;
+}
+
+.topnav nav .menu li a {
+   padding: 0 20px;
+   display: block;
+   line-height: 20px;
+}
+
+.topnav a {
+   text-decoration: none;
+   font-weight: 300;
+   background-color: inherit;
+   color: #f5feff;
+  font-family: 'Bebas Neue', Light 300;
+}
+
+.topnav a:hover {
+   background-color: white;
+   color: black;
+}
+
+ol li {
+   list-style-type: decimal-leading-zero;
+   padding: 4px 5px;
+   margin-left: 40px;
+   font-size: 18px;
+   font-family: 'Bebas Neue', Light 300;
+}
+
+p {
+   padding: 14px 13px;
+   font-size: 18px;
+   font-family: 'Bebas Neue', Light 300;
+}
+
+.bottom {
+   padding: 14px 0;
+   position: sticky;
+   background-color: Black;
+   color: white;
+}
+
+.bottom nav .menu {
+   display: flex;
+   float: right;
+   padding: 0 500px;
+}
+
+
+.bottom nav .menu li a {
+   padding: 0 10px;
+   display: block;
+   line-height: 10px;
+}
+
+.bottom a:hover {
+   background-color: white;
+   color: black;
+}
+
+.bottom a {
+   text-decoration: none;
+   font-weight: 300;
+   background-color: inherit;
+   color: #f5feff;
+  font-family: 'Bebas Neue', Light 300;
+}
+
+.orderedsongs{
+  text-decoration: none;
+  text-align:center;
+  padding: 14px 20px;
+  color: white;
+  background-color: Black;
+}
+
+.subheaders{
+  text-align: center;
+  padding: 5px 0 8px 13px;
+  font-family: 'Bebas Neue', Bold;
+  font-size: 30px;
+}
+
+img {
+  width: 550px;
+  height: 500px;
+  border: 20px solid black;
+}
+
+.groupmembers{
+  text-align: center;
+  padding: 5px 0 8px 13px;
+  font-family: 'Bebas Neue', Light 300;
+  font-size: 20px;
+}
+
+.reviewcomments{
+  text-align: center;
+  padding: 5px 0 8px 13px;
+  font-family: 'Bebas Neue', Light 300;
+  font-size: 24px;
+}
+
+.linkmore{
+ color: black;
+}
+
+.linkmore a:hover {
+   background-color: Black;
+   color: white;
+}
+
+.linkmore a {
+   text-decoration: none;
+   font-weight: 300;
+   background-color: inherit;
+   color: black;
+  font-family: 'Bebas Neue', Light 300;
+}
