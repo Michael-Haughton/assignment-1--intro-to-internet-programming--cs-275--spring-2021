@@ -9,10 +9,20 @@ header {
   background-position: center;
   background-size: 1750px 850px;
 }
+
 body {
    margin: 0;
    padding: 0;
    background: white;
+}
+
+h1 {
+   text-align: left;
+   font-size: 100px;
+   padding: 500px 0 0 100px;
+   font-family: 'Bebas Neue', regular 400;
+   position: sticky;
+   color: #f5feff;
 }
    position: sticky;
    top: 0;
